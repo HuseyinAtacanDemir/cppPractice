@@ -40,7 +40,6 @@ int main()
 
     int base, exponent;
 
-    
     cout << "what is the base? ";
     cin >> base;
     cout << "what is the exponent? ";
