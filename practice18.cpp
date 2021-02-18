@@ -19,6 +19,7 @@ int main(){
 
     std::cout << "factorial of " << factorial << " is " << result << std::endl;
     */
+   /*
     std::string password = "hello";
     std::string guess;
 
@@ -32,6 +33,23 @@ int main(){
     }while(true);
 
     std::cout << "Pass: " << guess << " \n";
+    */
+
+    std::string sentence = "Hello my name is John";
+    for(int i = 0; i < sentence.size(); i++){
+        if(sentence[i] == ' '){
+            std::cout << "continue\n";
+            continue;
+        }
+        std::cout << sentence[i] << std::endl;
+        /*
+        if(sentence[i] == 'o'){
+            std::cout << "found o!\n";
+            break;
+        }
+        */
+    }
+    std::cout << "Done!\n";
 
     return 0;
 }
